@@ -5,7 +5,7 @@ import { CdkSampleStack } from '../lib/cdk_sample-stack';
 import { PipelineStack } from '../lib/pipeline-stack';
 
 const env = {
-    account: "142336375856",
+    account: "changeme",
     region: "us-west-1",
   };
 const app = new cdk.App();
