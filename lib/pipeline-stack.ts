@@ -11,8 +11,8 @@ export class PipelineStack extends cdk.Stack {
   constructor(scope: cdk.Construct, id: string, props: cdk.StackProps) {
     super(scope, id, props);
 
-    const pipeline = new Pipeline(this, "RedenlabPlatform", {
-      pipelineName: "RedenlabPlatform",
+    const pipeline = new Pipeline(this, "CDKSample", {
+      pipelineName: "CDKSample",
     });
 
     const source = new Artifact("Source");

@@ -8,6 +8,7 @@ phases:
     commands:
       - npm install -g aws-cdk 
       - npm install -g typescript
+      - npm install -g ts-node
       - cdk --version
 
   build:
